@@ -1,0 +1,13 @@
+diff --git a/debian/control b/debian/control
+index f1089870f..bad8fc2f3 100644
+--- a/debian/control
++++ b/debian/control
+@@ -1,7 +1,6 @@
+ Source: util-linux
+ Build-Depends:
+- debhelper (>= 14.1~),
+- debhelper-compat (= 14),
++ debhelper-compat (= 13),
+  dh-exec,
+  dh-package-notes,
+  dh-sequence-zz-debputy-rrr (>= 0.1.23~),

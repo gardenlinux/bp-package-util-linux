@@ -1,4 +1,7 @@
-version="2.42.1-3"
+version="2.42.2-1"
 version_suffix="gl0+bp2150"
 
 git_src -b "debian/$version" "https://salsa.debian.org/debian/util-linux.git"
+
+apply_patches
+
