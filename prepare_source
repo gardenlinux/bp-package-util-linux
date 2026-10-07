@@ -1,5 +1,5 @@
 version_suffix="gl0+bp1877"
-version="2.41-4"
+version="2.42.4-1"
 
 apt_src "util-linux" version="$version"
 import_upstream_patches
